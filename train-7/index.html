@@ -4,12 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BootStrap-T1</title>
-    <link rel="stylesheet" href="style.css" />
+
     <link rel="stylesheet" href="../bootstrap.min.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+    <style>
+      .carousel-indicators {
+        margin-left: 30px !important;
+      }
+      .heart-btn:hover .heart-spn {
+        display: inline !important;
+      }
+      .cart-btn:hover .cart-spn {
+        display: inline !important;
+      }
+      .card {
+        padding: 10px !important;
+      }
+    </style>
   </head>
   <body>
     <header class="container-fluid py-1 shadow-sm">
@@ -28,6 +42,307 @@
         </div>
       </nav>
     </header>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators d-flex justify-content-start">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../slid-1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="../slide-2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="../slide-3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+    </div>
+    <!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+    <div class="container-fluid">
+      <div class="row mx-auto">
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12 col gx-1 p-1">
+          <div class="card container-fluid">
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="stars text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <span class="badge text-bg-danger">پیشنهاد ویژه</span>
+            </div>
+            <div>
+              <img src="../slid-1.jpg" alt="" class="w-100 my-3" />
+            </div>
+
+            <div class="text-center mt-2 mb-3">هندزفری پی زد ایکس مدل 1580</div>
+
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="buttons">
+                <button class="btn btn-success cart-btn">
+                  <i class="bi bi-cart-fill"></i>
+                  <span class="d-none cart-spn">خرید</span>
+                </button>
+                <button class="btn btn-success heart-btn">
+                  <i class="bi bi-heart-fill Like"></i>
+                  <span class="d-none heart-spn">علاقه</span>
+                </button>
+              </div>
+              <div class="price">800 هزار تومان</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12 col gx-1 p-1">
+          <div class="card container-fluid">
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="stars text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <span class="badge text-bg-danger">پیشنهاد ویژه</span>
+            </div>
+            <div>
+              <img src="../slid-1.jpg" alt="" class="w-100 my-3" />
+            </div>
+
+            <div class="text-center mt-2 mb-3">هندزفری پی زد ایکس مدل 1580</div>
+
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="buttons">
+                <button class="btn btn-success cart-btn">
+                  <i class="bi bi-cart-fill"></i>
+                  <span class="d-none cart-spn">خرید</span>
+                </button>
+                <button class="btn btn-success heart-btn">
+                  <i class="bi bi-heart-fill Like"></i>
+                  <span class="d-none heart-spn">علاقه</span>
+                </button>
+              </div>
+              <div class="price">800 هزار تومان</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12 col gx-1 p-1">
+          <div class="card container-fluid">
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="stars text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <span class="badge text-bg-danger">پیشنهاد ویژه</span>
+            </div>
+            <div>
+              <img src="../slid-1.jpg" alt="" class="w-100 my-3" />
+            </div>
+
+            <div class="text-center mt-2 mb-3">هندزفری پی زد ایکس مدل 1580</div>
+
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="buttons">
+                <button class="btn btn-success cart-btn">
+                  <i class="bi bi-cart-fill"></i>
+                  <span class="d-none cart-spn">خرید</span>
+                </button>
+                <button class="btn btn-success heart-btn">
+                  <i class="bi bi-heart-fill Like"></i>
+                  <span class="d-none heart-spn">علاقه</span>
+                </button>
+              </div>
+              <div class="price">800 هزار تومان</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12 col gx-1 p-1">
+          <div class="card container-fluid">
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="stars text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <span class="badge text-bg-danger">پیشنهاد ویژه</span>
+            </div>
+            <div>
+              <img src="../slid-1.jpg" alt="" class="w-100 my-3" />
+            </div>
+
+            <div class="text-center mt-2 mb-3">هندزفری پی زد ایکس مدل 1580</div>
+
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="buttons">
+                <button class="btn btn-success cart-btn">
+                  <i class="bi bi-cart-fill"></i>
+                  <span class="d-none cart-spn">خرید</span>
+                </button>
+                <button class="btn btn-success heart-btn">
+                  <i class="bi bi-heart-fill Like"></i>
+                  <span class="d-none heart-spn">علاقه</span>
+                </button>
+              </div>
+              <div class="price">800 هزار تومان</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="border-top-2 text-end">هندزفری ها</p>
+      <div class="row mx-auto">
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12 col gx-1 p-1">
+          <div class="card container-fluid">
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="stars text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <span class="badge text-bg-danger">پیشنهاد ویژه</span>
+            </div>
+            <div>
+              <img src="../slid-1.jpg" alt="" class="w-100 my-3" />
+            </div>
+
+            <div class="text-center mt-2 mb-3">هندزفری پی زد ایکس مدل 1580</div>
+
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="buttons">
+                <button class="btn btn-success cart-btn">
+                  <i class="bi bi-cart-fill"></i>
+                  <span class="d-none cart-spn">خرید</span>
+                </button>
+                <button class="btn btn-success heart-btn">
+                  <i class="bi bi-heart-fill Like"></i>
+                  <span class="d-none heart-spn">علاقه</span>
+                </button>
+              </div>
+              <div class="price">800 هزار تومان</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12 col gx-1 p-1">
+          <div class="card container-fluid">
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="stars text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <span class="badge text-bg-danger">پیشنهاد ویژه</span>
+            </div>
+            <div>
+              <img src="../slid-1.jpg" alt="" class="w-100 my-3" />
+            </div>
+
+            <div class="text-center mt-2 mb-3">هندزفری پی زد ایکس مدل 1580</div>
+
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="buttons">
+                <button class="btn btn-success cart-btn">
+                  <i class="bi bi-cart-fill"></i>
+                  <span class="d-none cart-spn">خرید</span>
+                </button>
+                <button class="btn btn-success heart-btn">
+                  <i class="bi bi-heart-fill Like"></i>
+                  <span class="d-none heart-spn">علاقه</span>
+                </button>
+              </div>
+              <div class="price">800 هزار تومان</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12 col gx-1 p-1">
+          <div class="card container-fluid">
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="stars text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <span class="badge text-bg-danger">پیشنهاد ویژه</span>
+            </div>
+            <div>
+              <img src="../slid-1.jpg" alt="" class="w-100 my-3" />
+            </div>
+
+            <div class="text-center mt-2 mb-3">هندزفری پی زد ایکس مدل 1580</div>
+
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="buttons">
+                <button class="btn btn-success cart-btn">
+                  <i class="bi bi-cart-fill"></i>
+                  <span class="d-none cart-spn">خرید</span>
+                </button>
+                <button class="btn btn-success heart-btn">
+                  <i class="bi bi-heart-fill Like"></i>
+                  <span class="d-none heart-spn">علاقه</span>
+                </button>
+              </div>
+              <div class="price">800 هزار تومان</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12 col gx-1 p-1">
+          <div class="card container-fluid">
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="stars text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <span class="badge text-bg-danger">پیشنهاد ویژه</span>
+            </div>
+            <div>
+              <img src="../slid-1.jpg" alt="" class="w-100 my-3" />
+            </div>
+
+            <div class="text-center mt-2 mb-3">هندزفری پی زد ایکس مدل 1580</div>
+
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="buttons">
+                <button class="btn btn-success cart-btn">
+                  <i class="bi bi-cart-fill"></i>
+                  <span class="d-none cart-spn">خرید</span>
+                </button>
+                <button class="btn btn-success heart-btn">
+                  <i class="bi bi-heart-fill Like"></i>
+                  <span class="d-none heart-spn">علاقه</span>
+                </button>
+              </div>
+              <div class="price">800 هزار تومان</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="../bootstrap.bundle.min.js"></script>
   </body>
 </html>
